@@ -62,6 +62,14 @@ TO DO: SGPersona is a profile of Shareable? Publishable?
 `.description` - add a summary description  
 
 
+#### Adding the Personas to the narrative page
+The personas should be listed in the personas.md page. To enable this, the L3 author can simply add any supporting narrative and make sure the personas.md page contains this:
+
+ {% raw %}
+{% include fragment-actors.liquid %}
+ {% endraw %}
+
+
 Personas will be associated with actions(processes). The tracking of that association is managed in another process. See [Common artifacts governance](commons_governance.html).
 
 
