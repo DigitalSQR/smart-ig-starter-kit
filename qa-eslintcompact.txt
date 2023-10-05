@@ -1,0 +1,9 @@
+﻿/github/workspace/fsh-generated/resources/ImplementationGuide-fhir.who.smart-ig-starter-kit.json: line 1, col 18664, Warning - Rule ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed (INVARIANT)
+/github/workspace/fsh-generated/resources/ImplementationGuide-fhir.who.smart-ig-starter-kit.json: line 1, col 18663, Error - ImplementationGuide.definition.resource: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ImplementationGuide|4.0.1) (STRUCTURE)
+
+smartigstarterkit : Validation Results
+=========================================
+
+err = 1, warn = 5, info = 0
+IG Publisher Version: 1.4.12
+Generated Thu Oct 05 05:15:00 UTC 2023. FHIR version 4.0.1 for fhir.who.smart-ig-starter-kit#0.2.1 (canonical = http://worldhealthorganization.github.io/smart-ig-starter-kit)

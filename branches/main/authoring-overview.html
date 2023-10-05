@@ -1,0 +1,586 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <title>FHIR.WHO.SMART-IG-STARTER-KIT\Authoring - overview - FHIR v4.0.1</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link rel="stylesheet" href="fhir.css"/>
+
+      <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+
+      <!-- Project extras -->
+    <link rel="stylesheet" href="assets/css/project.css"/>
+    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
+    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
+  	<link rel="stylesheet" href="assets/css/prism.css"/>
+      <!-- Placeholder for child template CSS declarations -->
+    <link rel="stylesheet" href="assets/css/who.css"/>
+    <link rel="stylesheet" href="assets/css/lforms.min.css"/>
+  <!-- Placeholder for child template CSS declarations -->
+<link rel="stylesheet" href="assets/css/local.css"/>
+
+
+    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
+
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- [if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif] -->
+
+      <!-- Favicons -->
+    <link sizes="144x144" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
+    <link sizes="114x114" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
+    <link sizes="72x72" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"3"}
+    h3,h4,h5,h6{--heading-prefix:"3.0"}</style>
+    <div id="segment-header" class="segment">    <!-- segment-header -->
+      <div class="container">    <!-- container -->
+          <!-- Placeholder for child template header declarations -->
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">WHO SMART Guideline: Starter Kit</span>
+            <br/>
+            <span style="display:inline-block;">0.2.1 - CI Build
+
+
+
+  <img src="assets/images/001.svg" alt="International flag" title="International" height="16"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div>   <!-- /container -->
+    </div>    <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">    <!-- container -->
+          <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+            <!-- status-bar -->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a href="http://hl7.org/fhir/R4/index.html" class="navbar-brand hidden">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+                <!-- menu.xml -->
+
+<ul class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Setup
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="ig_setup.html">IG Setup</a>
+      </li>
+      <li>
+        <a href="l3_profiles.html">Profiles</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Governance
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li><a name="l179">​</a>
+        <a href="g_concept.html">Dictionaries</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Authoring
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li><a name="l196">​</a>
+        <a href="personas.html">Personas</a>
+      </li>
+      <li>
+        <a href="l3_businessprocesses.html">Business Processes</a>
+      </li>
+      <li>
+        <a href="l3_valuesets.html">Value Sets</a>
+      </li>
+      <li>
+        <a href="l3_codesystems.html">Code Systems</a>
+      </li>
+      <li>
+        <a href="l3_forms.html">Forms</a>
+      </li>
+      <li>
+        <a href="l3_conceptmaps.html">ConceptMaps</a>
+      </li>
+      <li>
+        <a href="l3_profiles.html">Profiles</a>
+      </li>
+      <li>
+        <a href="l3_logicalmodels.html">Logical Models</a>
+      </li>
+      <li>
+        <a href="l3_userscenarios.html">User Scenarios</a>
+      </li>
+      <li>
+        <a href="l3_indicators.html">Indicators</a>
+      </li>
+      <li>
+        <a href="l3_decisiontables.html">Decision Tables</a>
+      </li>
+      <li>
+        <a href="l3_schedulinglogic.html">Scheduling Logic</a>
+      </li>
+      <li>
+        <a href="l3_structuremaps.html">Structure Maps</a>
+      </li>
+      <li>
+        <a href="l3_cql.html">CQL</a>
+      </li>
+      <li>
+        <a href="l3_testing.html">Testing</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Support
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li><a name="l297">​</a>
+        <a href="l3_qachecking.md">QA Checking</a>
+      </li>
+      <li><a name="l303">​</a>
+        <a href="downloads.html">Downloads</a>
+      </li>
+      <li>
+        <a href="http://hl7.org/fhir/us/example/history.html">History</a>
+      </li>
+    </ul>
+  </li>
+</ul>
+            </div>    <!-- /.nav-collapse -->
+          </div>    <!-- /.container -->
+        </nav>    <!-- /.navbar -->
+        <!-- /HEADER CONTENT -->
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-navbar -->
+      <!-- status-bar -->
+
+    <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
+      <div class="container">    <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><b>Authoring - overview</b></li>
+
+        </ul>
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">    <!-- segment-content -->
+      <div class="container">    <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+    <!-- ReleaseHeader --><p id="publish-box">WHO SMART Guideline: Starter Kit, published by WHO. This is not an authorized publication; it is the continuous build for version 0.2.1). This version is based on the current content of <a href="https://github.com/DigitalSQR/smart-ig-starter-kit">https://github.com/DigitalSQR/smart-ig-starter-kit</a> and changes regularly. See the <a href="http://worldhealthorganization.github.io/smart-ig-starter-kit/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+  <h2>Authoring - overview</h2>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+    <p>  <!-- white space is critical inside of capture --></p>
+<div class="markdown-toc">
+<ul id="markdown-toc">
+  <li><a href="#types-of-content" id="markdown-toc-types-of-content">Types of Content</a></li>
+  <li><a href="#l2-overview" id="markdown-toc-l2-overview">L2 Overview</a></li>
+  <li><a href="#governance" id="markdown-toc-governance">Governance</a></li>
+  <li><a href="#l3-artifacts" id="markdown-toc-l3-artifacts">L3 Artifacts</a></li>
+  <li><a href="#naming-convention" id="markdown-toc-naming-convention">Naming convention</a></li>
+  <li><a href="#versioning" id="markdown-toc-versioning">Versioning</a></li>
+</ul>
+
+</div>
+
+<h3 id="types-of-content">Types of Content</h3>
+
+<h3 id="l2-overview">L2 Overview</h3>
+
+<p>For narrative, all files are in input/pagecontent</p>
+
+<h2 id="governance">Governance</h2>
+<p>Adding artifacts, what goes into common-clinical, etc.</p>
+
+<p>L3 authors should find and use the L2 artifacts.<br/>
+L2 artifacts can be represented as narrative or other representations such as FHIR resources. For reference, these are the locations for such artifacts and narrative:</p>
+
+<table border="1">
+    <thead>
+        <tr>
+            <th>Content Type</th>
+            <th>L2 Representation</th>
+            <th>L2 Location</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Health Interventions</td>
+            <td>Narrative</td>
+            <td>input/pagecontent</td>
+        </tr>
+        <tr>
+            <td>Generic Personas</td>
+            <td>Narrative</td>
+            <td>input/pagecontent/personas.md</td>
+        </tr>
+        <tr>
+            <td>User Scenarios</td>
+            <td>Narrative</td>
+            <td>input/pagecontent</td>
+        </tr>
+        <tr>
+            <td>Processes</td>
+            <td>Narrative</td>
+            <td>input/pagecontent</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Data Elements</td>
+            <td>Narrative</td>
+            <td>input/pagecontent</td>
+        </tr>
+        <tr>
+            <td>Spreadsheet</td>
+            <td>TBD</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Decision Tables</td>
+            <td>Narrative</td>
+            <td>input/pagecontent</td>
+        </tr>
+        <tr>
+            <td>Spreadsheet</td>
+            <td>TBD</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Scheduling Logic</td>
+            <td>Narrative</td>
+            <td>input/pagecontent</td>
+        </tr>
+        <tr>
+            <td>Spreadsheet</td>
+            <td>N/A</td>
+        </tr>
+        <tr>
+            <td>Indicators</td>
+            <td>Narrative</td>
+            <td>input/pagecontent</td>
+        </tr>
+        <tr>
+            <td>Functional Requirements</td>
+            <td>Narrative</td>
+            <td>input/pagecontent</td>
+        </tr>
+        <tr>
+            <td>Non-functional Requirements</td>
+            <td>Narrative</td>
+            <td>input/pagecontent</td>
+        </tr>
+    </tbody>
+</table>
+
+<h2 id="l3-artifacts">L3 Artifacts</h2>
+
+<p>The L3 artifacts…</p>
+
+<table border="1">
+    <thead>
+        <tr>
+            <th>Content Type</th>
+            <th>L3 Representation</th>
+            <th>L3 Location</th>
+            <th>Procedure</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Health Interventions</td>
+            <td>n/a</td>
+            <td>n/a</td>
+            <td>n/a</td>
+        </tr>
+        <tr>
+            <td>Generic Personas</td>
+            <td>ActorDefinition</td>
+            <td>input/actors</td>
+            <td><a href="l3_personas.html">Actors</a></td>
+        </tr>
+        <tr>
+            <td rowspan="4">User Scenarios</td>
+            <td>ExampleScenario</td>
+            <td>input/scenarios</td>
+            <td><a name="l686">​</a><a href="l3_scenarios.html">Scenarios</a></td>
+        </tr>
+        <tr>
+            <td>TestPlan</td>
+            <td>input/testing</td>
+            <td><a name="l699">​</a><a href="l3_testplans.html">TestPlans</a></td>
+        </tr>
+        <tr>
+            <td>TestScript??</td>
+            <td>input/testing</td>
+            <td><a name="l712">​</a><a href="l3_testscripts.html">TestScripts</a></td>
+        </tr>
+        <tr>
+            <td>Example instances</td>
+            <td>input/testing<br/>input/examples</td>
+            <td><a name="l727">​</a><a href="l3_examples.html">Examples</a></td>
+        </tr>
+        <tr>
+            <td rowspan="2">Processes</td>
+            <td>FHIR PlanDefinition</td>
+            <td>input/plandefinitions</td>
+            <td><a name="l743">​</a><a href="l3_plandefinitions.html">Plan Definitions</a></td>
+        </tr>
+        <tr>
+            <td>FHIR ActivityDefinition</td>
+            <td>input/process<br/>input/activitydefinitions</td>
+            <td><a name="l758">​</a><a href="l3_processes.html">Activity definitions</a></td>
+        </tr>
+        <tr>
+            <td rowspan="10">Data Elements</td>
+            <td>Spreadsheet</td>
+            <td>n/a</td>
+            <td><a name="l774">​</a><a href="l3-.html">n/a</a></td>
+        </tr>
+        <tr>
+            <td>Logical Data Model</td>
+            <td>input/models</td>
+            <td><a href="l3_logicalmodels.html">Logical Models</a></td>
+        </tr>
+        <tr>
+            <td>FHIR Questionnaire</td>
+            <td>input/questionnaires</td>
+            <td><a name="l800">​</a><a href="l3-codesystems.html">Questionnaires</a></td>
+        </tr>
+        <tr>
+            <td>FHIR StructureMaps</td>
+            <td>input/maps</td>
+            <td><a href="l3_structuremaps.html">Structure Maps</a></td>
+        </tr>
+        <tr>
+            <td>FHIR ValueSet</td>
+            <td>input/valuesets</td>
+            <td><a href="l3_valuesets.html">ValueSets</a></td>
+        </tr>
+        <tr>
+            <td>FHIR CodeSystem</td>
+            <td>input/codesystems</td>
+            <td><a href="l3_codesystems.html">CodeSystems</a></td>
+        </tr>
+        <tr>
+            <td>FHIR Profile</td>
+            <td>input/profiles</td>
+            <td><a href="l3_profiles.html">Profiles</a></td>
+        </tr>
+        <tr>
+            <td>ConceptMap</td>
+            <td>input/maps</td>
+            <td><a href="l3_conceptmaps.html">Concept Maps</a></td>
+        </tr>
+        <tr>
+            <td>CQL Concepts</td>
+            <td>input/cql</td>
+            <td rowspan="2"><a href="l3_cql.html">CQL</a></td>
+        </tr>
+        <tr>
+            <td>CQL Data Elements</td>
+            <td>input/cql</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Decision Tables</td>
+            <td>FHIR PlanDefinition</td>
+            <td>input/plandefinitions</td>
+            <td><a name="l903">​</a><a href="l3_plandefinitions.html">Plan Definitions</a></td>
+        </tr>
+        <tr>
+            <td>FHIR Library</td>
+            <td>input/libraries</td>
+            <td><a href="l3_conceptmaps.html">Concept Maps</a></td>
+        </tr>
+        <tr>
+            <td>CQL</td>
+            <td>input/cql</td>
+            <td><a href="l3_cql.html">CQL</a></td>
+        </tr>
+        <tr>
+            <td rowspan="1">Scheduling Logic</td>
+            <td>FHIR PlanDefinition</td>
+            <td>input/plandefinitions</td>
+            <td rowspan="1"><a name="l945">​</a><a href="l3_plandefinitions.html">Plan Definitions</a></td>
+        </tr>
+        <tr>
+            <td rowspan="2">Indicators and Measures</td>
+            <td>FHIR Measure</td>
+            <td>input/measures</td>
+            <td rowspan="1"><a name="l961">​</a><a href="l3_measures.html">Measures</a></td>
+        </tr>
+        <tr>
+            <td>CQL IndicatorLogic</td>
+            <td>input/cql</td>
+            <td><a href="l3_cql.html">CQL</a></td>
+        </tr>
+        <tr>
+            <td>Functional Requirements</td>
+            <td>FHIR Requirements</td>
+            <td>input/requirements</td>
+            <td><a name="l990">​</a><a href="l3_requirements.html">Requirements</a></td>
+        </tr>
+        <tr>
+            <td>Non-functional Requirements</td>
+            <td>FHIR Requirements</td>
+            <td>input/requirements</td>
+            <td><a name="l1006">​</a><a href="l3_requirements.html">Requirements</a></td>
+        </tr>
+    </tbody>
+</table>
+
+<h2 id="naming-convention">Naming convention</h2>
+
+<p>Resource IDs</p>
+<ul>
+  <li>ValueSets should be prefixed or suffixed by VS (not enforced)</li>
+  <li>Codesystems do not need to to be prefixed or suffixed. The tooling shall handle the resources per type and ID, so there’s no conflict</li>
+  <li>Resource Ids should start with capital letter and may contain hyphens - NOT underscore:
+    <ul>
+      <li>ResourceId</li>
+      <li>Resource-id</li>
+    </ul>
+  </li>
+</ul>
+
+<p>File names
+For json or xml content, the file name SHALL be in the form</p>
+<ul>
+  <li>ResourceType-resourceid.xml/json (preferred)</li>
+  <li>ResourceType/resourceid.xml/json</li>
+  <li>resourceid.xml/json</li>
+</ul>
+
+<p>For fsh content, the file name SHALL be in the form</p>
+<ul>
+  <li>ResourceType/resourceid.fsh</li>
+</ul>
+
+<h2 id="versioning">Versioning</h2>
+
+<p><a name="l1067">​</a>see also <a href="versioning.html">versioning</a></p>
+
+
+
+
+</div>
+        </div>    <!-- /inner-wrapper -->
+      </div>    <!-- /row -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-content -->
+
+  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
+    <div class="container">    <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="http://who.int">WHO</a>.  Package fhir.who.smart-ig-starter-kit#0.2.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Aug 23, 2023 05:37+0000">2023-08-23</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)"><a name="l1122">​</a>
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                  | <a style="color: var(--footer-hyperlink-text-color)" href="https://github.com/WorldHealthOrganization/smart-ig-starter-kit/projects/1" target="_blank">Issues</a>
+                
+| <a style="color: #81BEF7" href="http://worldhealthorganization.github.io/smart-ig-starter-kit/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+          </span>
+        </p>
+      </div>    <!-- /inner-wrapper -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
+    <div class="container">    <!-- container -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-post-footer -->
+  
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
+  ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
+  <script src="assets/js/respond.min.js" type="text/javascript"> </script>
+  <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+  <!-- feedback form - Google forms -->
+  <!-- v0.1, 2021-01-09 -->
+
+
+  
+    
+  
+
+
+
+  <!-- / feedback form -->
+
+    <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>

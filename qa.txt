@@ -1,0 +1,64 @@
+﻿smartigstarterkit : Validation Results
+=========================================
+
+err = 1, warn = 5, info = 0
+IG Publisher Version: 1.4.12
+Generated Thu Oct 05 05:15:00 UTC 2023. FHIR version 4.0.1 for fhir.who.smart-ig-starter-kit#0.2.1 (canonical = http://worldhealthorganization.github.io/smart-ig-starter-kit)
+ Build Errors : 47 / 4 / 0
+ /github/workspace/fsh-generated/resources/ImplementationGuide-fhir.who.smart-ig-starter-kit : 1 / 1 / 1
+</table>
+== n/a ==
+ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/nav/div/div/ul/li/ul/li/ul/li/a at Line 243, column 14: The link 'maps.html'' for "Value Sets" cannot be resolved
+ERROR: /github/workspace/output/assumptions.html#/html/body/div/div/nav/div/div/ul/li/ul/li/ul/li/a at Line 243, column 14: The link 'maps.html'' for "Value Sets" cannot be resolved
+ERROR: /github/workspace/output/authoring_artifacts.html#/html/body/div/div/nav/div/div/ul/li/ul/li/ul/li/a at Line 243, column 14: The link 'maps.html'' for "Value Sets" cannot be resolved
+ERROR: /github/workspace/output/authoring_overview.html#/html/body/div/div/nav/div/div/ul/li/ul/li/ul/li/a at Line 243, column 14: The link 'maps.html'' for "Value Sets" cannot be resolved
+ERROR: /github/workspace/output/content_types.html#/html/body/div/div/nav/div/div/ul/li/ul/li/ul/li/a at Line 243, column 14: The link 'maps.html'' for "Value Sets" cannot be resolved
+ERROR: /github/workspace/output/content_types.html#/html/body/div/div/div/div/div/ul/li/a at Line 334, column 12: The link 'l3_personas' for "Personas" cannot be resolved
+ERROR: /github/workspace/output/content_types.html#/html/body/div/div/div/div/div/ul/li/a at Line 396, column 55: The link 'l3_Codesystems.html' for "CodeSystems" cannot be resolved
+ERROR: /github/workspace/output/github_setup.html#/html/body/div/div/nav/div/div/ul/li/ul/li/ul/li/a at Line 243, column 14: The link 'maps.html'' for "Value Sets" cannot be resolved
+ERROR: /github/workspace/output/gov_concepts.html#/html/body/div/div/nav/div/div/ul/li/ul/li/ul/li/a at Line 243, column 14: The link 'maps.html'' for "Value Sets" cannot be resolved
+ERROR: /github/workspace/output/gov_overview.html#/html/body/div/div/nav/div/div/ul/li/ul/li/ul/li/a at Line 243, column 14: The link 'maps.html'' for "Value Sets" cannot be resolved
+ERROR: /github/workspace/output/ig_configuration.html#/html/body/div/div/nav/div/div/ul/li/ul/li/ul/li/a at Line 243, column 14: The link 'maps.html'' for "Value Sets" cannot be resolved
+ERROR: /github/workspace/output/ig_licensing.html#/html/body/div/div/nav/div/div/ul/li/ul/li/ul/li/a at Line 243, column 14: The link 'maps.html'' for "Value Sets" cannot be resolved
+ERROR: /github/workspace/output/ig_setup.html#/html/body/div/div/nav/div/div/ul/li/ul/li/ul/li/a at Line 243, column 14: The link 'maps.html'' for "Value Sets" cannot be resolved
+ERROR: /github/workspace/output/index.html#/html/body/div/div/nav/div/div/ul/li/ul/li/ul/li/a at Line 243, column 14: The link 'maps.html'' for "Value Sets" cannot be resolved
+ERROR: /github/workspace/output/indices.html#/html/body/div/div/nav/div/div/ul/li/ul/li/ul/li/a at Line 243, column 14: The link 'maps.html'' for "Value Sets" cannot be resolved
+ERROR: /github/workspace/output/l2_overview.html#/html/body/div/div/nav/div/div/ul/li/ul/li/ul/li/a at Line 243, column 14: The link 'maps.html'' for "Value Sets" cannot be resolved
+ERROR: /github/workspace/output/l3_codesystems.html#/html/body/div/div/nav/div/div/ul/li/ul/li/ul/li/a at Line 243, column 14: The link 'maps.html'' for "Value Sets" cannot be resolved
+ERROR: /github/workspace/output/l3_conceptmaps.html#/html/body/div/div/nav/div/div/ul/li/ul/li/ul/li/a at Line 243, column 14: The link 'maps.html'' for "Value Sets" cannot be resolved
+ERROR: /github/workspace/output/l3_cql.html#/html/body/div/div/nav/div/div/ul/li/ul/li/ul/li/a at Line 243, column 14: The link 'maps.html'' for "Value Sets" cannot be resolved
+ERROR: /github/workspace/output/l3_decisiontables.html#/html/body/div/div/nav/div/div/ul/li/ul/li/ul/li/a at Line 243, column 14: The link 'maps.html'' for "Value Sets" cannot be resolved
+ERROR: /github/workspace/output/l3_examples.html#/html/body/div/div/nav/div/div/ul/li/ul/li/ul/li/a at Line 243, column 14: The link 'maps.html'' for "Value Sets" cannot be resolved
+ERROR: /github/workspace/output/l3_forms.html#/html/body/div/div/nav/div/div/ul/li/ul/li/ul/li/a at Line 243, column 14: The link 'maps.html'' for "Value Sets" cannot be resolved
+ERROR: /github/workspace/output/l3_indicators.html#/html/body/div/div/nav/div/div/ul/li/ul/li/ul/li/a at Line 243, column 14: The link 'maps.html'' for "Value Sets" cannot be resolved
+ERROR: /github/workspace/output/l3_indicators.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 403, column 12: The link 'l3_measures_testing.html' for "Testing Measures" cannot be resolved
+ERROR: /github/workspace/output/l3_logicalmodels.html#/html/body/div/div/nav/div/div/ul/li/ul/li/ul/li/a at Line 243, column 14: The link 'maps.html'' for "Value Sets" cannot be resolved
+ERROR: /github/workspace/output/l3_logicalmodels.html#/html/body/div/div/div/div/div/ul/li/a at Line 501, column 99: The link 'semanticreferences.html' for "semantic references" cannot be resolved
+ERROR: /github/workspace/output/l3_personas.html#/html/body/div/div/nav/div/div/ul/li/ul/li/ul/li/a at Line 243, column 14: The link 'maps.html'' for "Value Sets" cannot be resolved
+ERROR: /github/workspace/output/l3_personas.html#/html/body/div/div/div/div/div/p/a at Line 384, column 126: The link 'commons_governance.html' for "Common artifacts governance" cannot be resolved
+ERROR: /github/workspace/output/l3_processes.html#/html/body/div/div/nav/div/div/ul/li/ul/li/ul/li/a at Line 243, column 14: The link 'maps.html'' for "Value Sets" cannot be resolved
+ERROR: /github/workspace/output/l3_profiles.html#/html/body/div/div/nav/div/div/ul/li/ul/li/ul/li/a at Line 243, column 14: The link 'maps.html'' for "Value Sets" cannot be resolved
+ERROR: /github/workspace/output/l3_profiles.html#/html/body/div/div/div/div/div/p/a at Line 344, column 36: The link 'commonprofiles.html' for "common profiles" cannot be resolved
+ERROR: /github/workspace/output/l3_requirements.html#/html/body/div/div/nav/div/div/ul/li/ul/li/ul/li/a at Line 243, column 14: The link 'maps.html'' for "Value Sets" cannot be resolved
+ERROR: /github/workspace/output/l3_scenarios.html#/html/body/div/div/nav/div/div/ul/li/ul/li/ul/li/a at Line 243, column 14: The link 'maps.html'' for "Value Sets" cannot be resolved
+ERROR: /github/workspace/output/l3_schedulinglogic.html#/html/body/div/div/nav/div/div/ul/li/ul/li/ul/li/a at Line 243, column 14: The link 'maps.html'' for "Value Sets" cannot be resolved
+ERROR: /github/workspace/output/l3_structuremaps.html#/html/body/div/div/nav/div/div/ul/li/ul/li/ul/li/a at Line 243, column 14: The link 'maps.html'' for "Value Sets" cannot be resolved
+ERROR: /github/workspace/output/l3_structuremaps.html#/html/body/div/div/div/div/div/ul/li/a at Line 374, column 12: The link 'forms.html' for "Forms / Questionnaires" cannot be resolved
+ERROR: /github/workspace/output/l3_testing.html#/html/body/div/div/nav/div/div/ul/li/ul/li/ul/li/a at Line 243, column 14: The link 'maps.html'' for "Value Sets" cannot be resolved
+ERROR: /github/workspace/output/l3_valuesets.html#/html/body/div/div/nav/div/div/ul/li/ul/li/ul/li/a at Line 243, column 14: The link 'maps.html'' for "Value Sets" cannot be resolved
+ERROR: /github/workspace/output/l3_valuesets.html#/html/body/div/div/div/div/div/ul/li/a at Line 341, column 58: The link 'tracking_changes.html' for "tracking changes" cannot be resolved
+ERROR: /github/workspace/output/license.html#/html/body/div/div/nav/div/div/ul/li/ul/li/ul/li/a at Line 243, column 14: The link 'maps.html'' for "Value Sets" cannot be resolved
+ERROR: /github/workspace/output/maps.html#/html/body/div/div/nav/div/div/ul/li/ul/li/ul/li/a at Line 243, column 14: The link 'maps.html'' for "Value Sets" cannot be resolved
+ERROR: /github/workspace/output/narrative.html#/html/body/div/div/nav/div/div/ul/li/ul/li/ul/li/a at Line 243, column 14: The link 'maps.html'' for "Value Sets" cannot be resolved
+ERROR: /github/workspace/output/qa_check.html#/html/body/div/div/nav/div/div/ul/li/ul/li/ul/li/a at Line 243, column 14: The link 'maps.html'' for "Value Sets" cannot be resolved
+ERROR: /github/workspace/output/structure.html#/html/body/div/div/nav/div/div/ul/li/ul/li/ul/li/a at Line 243, column 14: The link 'maps.html'' for "Value Sets" cannot be resolved
+ERROR: /github/workspace/output/toc.html#/html/body/div/div/nav/div/div/ul/li/ul/li/ul/li/a at Line 243, column 14: The link 'maps.html'' for "Value Sets" cannot be resolved
+ERROR: /github/workspace/output/validating_ig.html#/html/body/div/div/nav/div/div/ul/li/ul/li/ul/li/a at Line 243, column 14: The link 'maps.html'' for "Value Sets" cannot be resolved
+ERROR: /github/workspace/output/versioning.html#/html/body/div/div/nav/div/div/ul/li/ul/li/ul/li/a at Line 243, column 14: The link 'maps.html'' for "Value Sets" cannot be resolved
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/ImplementationGuide-fhir.who.smart-ig-starter-kit.json ==
+WARNING: ImplementationGuide/fhir.who.smart-ig-starter-kit: ImplementationGuide: Rule ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+ERROR: ImplementationGuide/fhir.who.smart-ig-starter-kit: ImplementationGuide.definition: ImplementationGuide.definition.resource: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ImplementationGuide|4.0.1)

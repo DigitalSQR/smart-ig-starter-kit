@@ -1,0 +1,9 @@
+[
+  {
+    "id" : "fhir.who.smart-ig-starter-kit",
+    "type" : "ImplementationGuide",
+    "url" : "http://worldhealthorganization.github.io/smart-ig-starter-kit/ImplementationGuide/fhir.who.smart-ig-starter-kit",
+    "version" : "0.2.1",
+    "name" : "smartigstarterkit"
+  }
+]
